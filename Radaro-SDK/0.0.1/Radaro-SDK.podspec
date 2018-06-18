@@ -10,8 +10,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "10.0"
 
   s.source       = { :git => "https://dmitrykurski@github.com/goozix/Radaro-SDK.git", :tag => "#{s.version}" }
-  s.source_files = "**"
-  # s.source_files = "ApplicationLayer/**/*", "CoreLayer/**/*", "ModelLayer/**/*", "ServiceLayer/**/*"
+  s.source_files = "*"
 
   s.frameworks =  "Foundation", "UIKit", "MapKit", "CoreLocation"
 
